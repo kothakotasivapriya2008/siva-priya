@@ -1,0 +1,8 @@
+Act as an expert Linux C developer. Implement a menu-driven 2D Graphics Editor using the `ncurses` (new curses) library. 
+
+Requirements:
+1. Use `ncurses` windows or forms to build a visual, interactive menu where the user can select shapes using arrow keys or numbers.
+2. Maintain a underlying 2D character array canvas initialized to '_' where shapes are plotted using '*'.
+3. Implement specific ncurses-compatible functions to draw a line, rectangle, circle, and triangle.
+4. Allow users to add shapes, modify/clear the screen, and instantly refresh the terminal display to show the visual grid.
+5. Provide the compilation command (e.g., using -lncurses) along with clean, commented code.
